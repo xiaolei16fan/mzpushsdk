@@ -1,0 +1,32 @@
+{
+  "name": "messagepush/mzpushsdk",
+  "description": "meizu push 改进版",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "even",
+      "email": "807890657@qq.com"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "require": {
+    "php": ">=5.3",
+    "phpunit/phpunit": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MzPush\\": "src/"
+    }
+  }
+  "autoload-dev": {
+    "psr-4": {
+        "Tests\\": "tests/"
+    }  
+  }
+}
