@@ -23,7 +23,7 @@
     "psr-4": {
       "MzPush\\": "src/"
     }
-  }
+  },
   "autoload-dev": {
     "psr-4": {
         "Tests\\": "tests/"
